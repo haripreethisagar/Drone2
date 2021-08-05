@@ -1,5 +1,5 @@
 #Drone CI File!
-#Commit Message: Drone! Captain Canary is here! 
+#Commit Message: Drone! Captain Canary is here!!
 
 kind: pipeline
 type: docker
@@ -19,6 +19,6 @@ steps:
       from_secret: docker_username
     password:
       from_secret: docker_password
-    repo: haripreethisagar/drone2
+    repo: haripreethisagar/drone3
     auto_tag: true
     auto_tag_suffix: drone-build
